@@ -74,10 +74,10 @@ def save():
     secret.save("hidden.png")
 
 
-image_icon=PhotoImage(file="R:\i6th_sem\EE304\logo.jpg")
+image_icon=PhotoImage(file="logo.jpg")
 root.iconphoto(False,image_icon)
 
-logo=PhotoImage(file="R:\i6th_sem\EE304\logo.png")
+logo=PhotoImage(file="logo.png")
 Label(root,image=logo,bg="#2f4155").place(x=10,y=0)
 Label(root,text="DSP PROJECT",bg="#2d4155",fg="white",font="arial 25 bold").place(x=100,y=20)
 
